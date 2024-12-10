@@ -44,10 +44,10 @@ const Home: React.FC = () => {
           &copy; {new Date().getFullYear()} Akanksha Sharma. All rights reserved.
         </p>
         <div className="footer-links">
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a href="/home" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a href="/home" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
           <a href="/contact">Contact</a>

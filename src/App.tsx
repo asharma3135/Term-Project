@@ -25,7 +25,7 @@ const App: React.FC = () => {
           <ul className="nav-list">
             <li>
               <NavLink
-                to="/"
+                to="/home"
                 className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
                 aria-label="Go to Home Page"
               >
@@ -82,7 +82,7 @@ const App: React.FC = () => {
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />

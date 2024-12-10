@@ -45,7 +45,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0",
+    "react-scripts": "latest"
   },
-  "homepage": "https://asharma3135.github.io/"
+  "homepage": "https://asharma3135.github.io/home"
 }
