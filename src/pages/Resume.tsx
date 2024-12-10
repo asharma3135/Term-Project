@@ -8,7 +8,6 @@ const Resume: React.FC = () => {
         <h1>My Resume</h1>
         <p>
           Below is an overview of my education, experience, and skills.
-          </a>.
         </p>
       </header>
 
