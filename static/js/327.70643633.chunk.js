@@ -1,0 +1,2 @@
+(()=>{function t(t){for(let e=2,s=Math.sqrt(t);e<=s;e++)if(t%e===0)return!1;return t>1}self.onmessage=function(e){const s=e.data,n=[];for(let f=2;f<=s;f++)t(f)&&n.push(f);self.postMessage(n)}})();
+//# sourceMappingURL=327.70643633.chunk.js.map
